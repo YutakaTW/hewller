@@ -1,37 +1,16 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
-en:
+ja:
   view:
     companytop: International, Inc.
-    contact: Contact
-    carousel1h3: Hair Care Products
-    carousel1p: Provide brand new items
-    carousel2h3: Industrial Solutions
-    carousel2p: Trading, marketing, advertising
-    carousel3h3: Website Building
-    carousel3p: For your company & services
-    aboutus: About Us
-    aboutush4: International Solution Provider
-    aboutusp1: Based in the metropolitan area of Taiwan's capital city - Taipei, we are here for you to provide integrated solutions to make your international business easier, especially here in Asia.
+    contact: お問い合せ
+    carousel1h3: ヘアケア製品
+    carousel1p: 最新のヘアケア製品をお届けします
+    carousel2h3: 工業向けサービス
+    carousel2p: 輸出入代理、マーケティング、業界向け広告など
+    carousel3h3: ウェブ制作
+    carousel3p: コーポレートサイト、サービスの紹介に
+    aboutus: 会社紹介
+    aboutush4: 海外ビジネスを多方面からサポートします
+    aboutusp1: 台湾発のヒューラー・インターナショナル社は、台湾企業、日本企業を問わず、クライアントの海外ビジネス、特にアジア圏での円滑な業務遂行を多方面からサポートします。
     aboutusp2: The company was originally established by 2 gentlemen, a Taiwanese and a Japanese, who had a strong background of sales and marketing, as well as web technologies.
     aboutusp3: Now, Hewller International, Inc. is able to provide our clients with consolidated services over hair care products, industrial solutions and website building. Please feel free to contact us for further information.
     contactus: Contact Us

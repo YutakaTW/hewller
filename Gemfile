@@ -36,6 +36,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'figaro'
 gem 'passenger'
 gem 'jquery-ui-rails'
+gem 'rails-i18n'
 
 group :production do
   gem 'pg'

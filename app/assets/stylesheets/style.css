@@ -10,7 +10,7 @@ body {
     margin: 0;
     font-size: 100%;
     background: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', "Hiragino Kaku Gothic ProN", "メイリオ", "微軟正黑體", sans-serif;
 }
 
 body a {

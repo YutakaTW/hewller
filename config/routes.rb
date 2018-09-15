@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   root 'static_pages#home'
   match '/home', to: 'static_pages#home', via: 'get'
 
+  scope '(:locale)', locale: /#{I18n.available_locales.map(&:to_s).join('|')}/ do
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -49,13 +49,13 @@
             <span class="icon-bar"></span>
           </button>
           <div class="logo-w3layouts-agileits">
-            <h1><a class="navbar-brand" href="/"><i class="fa fa-sun-o" aria-hidden="true"></i> Hewller <span class="desc">International, Inc.</span></a></h1>
+            <h1><a class="navbar-brand" href="/"><i class="fa fa-sun-o" aria-hidden="true"></i> Hewller <span class="desc"><%= t('view.companytop') %></span></a></h1>
           </div>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <div class="nav_right_top">
             <ul class="nav navbar-nav navbar-right">
-              <li><a class="request" href="/contact">Contact</a></li>
+              <li><a class="request" href="/contact"><%= t('view.contact') %></a></li>
             </ul>
             <ul class="nav navbar-nav">
               <!--<li class="active"><a href="/">Home</a></li>
@@ -83,8 +83,8 @@
       <div class="item active">
         <div class="container">
           <div class="carousel-caption">
-            <h3>Hair Care Products</h3>
-            <p>Provide brand new items</p>
+            <h3><%= t('view.carousel1h3') %></h3>
+            <p><%= t('view.carousel1p') %></p>
             <!-- <div class="top-buttons">
               <div class="bnr-button">
                 <a class="act" href="single.html">Read More</a>
@@ -100,8 +100,8 @@
       <div class="item item2">
         <div class="container">
           <div class="carousel-caption">
-            <h3>Industrial Solutions</h3>
-            <p>Trading, marketing, advertising</p>
+            <h3><%= t('view.carousel2h3') %></h3>
+            <p><%= t('view.carousel2p') %></p>
             <!-- <div class="top-buttons">
               <div class="bnr-button">
                 <a class="act" href="single.html">Read More</a>
@@ -117,8 +117,8 @@
       <div class="item item3">
         <div class="container">
           <div class="carousel-caption">
-            <h3>Website Building</h3>
-            <p>For your company & services</p>
+            <h3><%= t('view.carousel3h3') %></h3>
+            <p><%= t('view.carousel3p') %></p>
             <!-- <div class="top-buttons">
               <div class="bnr-button">
                 <a class="act" href="single.html">Read More</a>
@@ -164,7 +164,7 @@
   <!--/ab-->
   <div class="banner_bottom">
     <div class="container">
-      <h3 class="tittle-w3ls">About Us</h3>
+      <h3 class="tittle-w3ls"><%= t('view.aboutus') %></h3>
       <div class="inner_sec_info_wthree_agile">
         <div class="help_full">
 
@@ -172,12 +172,12 @@
             <img src="assets/ab.png" alt=" " class="img-responsive">
           </div>
           <div class="col-md-6 banner_bottom_left">
-            <h4>International Solution Provider</h4>
-            <p>Based in the metropolitan area of Taiwan's capital city - Taipei, we are here for you to provide integrated solutions to make your international business easier, especially here in Asia.</p>
-            <p>The company was originally established by 2 gentlemen, a Taiwanese and a Japanese, who had a strong background of sales and marketing, as well as web technologies.</p>
-            <p>Now, Hewller International, Inc. is able to provide our clients with consolidated services over hair care products, industrial solutions and website building. Please feel free to contact us for further information.</p>
+            <h4><%= t('view.aboutush4') %></h4>
+            <p><%= t('view.aboutusp1') %></p>
+            <p><%= t('view.aboutusp2') %></p>
+            <p><%= t('view.aboutusp3') %></p>
             <div class="ab_button">
-              <a class="btn btn-primary btn-lg hvr-underline-from-left" href="/contact" role="button">Contact Us </a>
+              <a class="btn btn-primary btn-lg hvr-underline-from-left" href="/contact" role="button"><%= t('view.contactus') %> </a>
             </div>
           </div>
           <div class="clearfix"></div>
@@ -193,8 +193,8 @@
                 </div>
               </div>
               <div class="col-xs-9 banner_bottom_grid_right">
-                <h4>Hair Care Products</h4>
-                <p>We are always keen on finding brand new products throughout the globe so that our clients are updated with the latest fashion of the industry. Among others, we have strong advantages in supplying Japanese advanced products.</p>
+                <h4><%= t('view.hairh4') %></h4>
+                <p><%= t('view.hairp') %></p>
 
               </div>
               <div class="clearfix"> </div>
@@ -210,8 +210,8 @@
                 </div>
               </div>
               <div class="col-xs-9 banner_bottom_grid_right">
-                <h4>Industrial Solutions</h4>
-                <p>Our one-stop solutions cover trading, sales & marketing consultancy, supplier sourcing and industry specific advertising on magazines, newspapers, websites, etc. We also provide translation and interpreting services.</p>
+                <h4><%= t('view.industrialh4') %></h4>
+                <p><%= t('view.industrialp') %></p>
 
               </div>
               <div class="clearfix"> </div>
@@ -227,8 +227,8 @@
                 </div>
               </div>
               <div class="col-xs-9 banner_bottom_grid_right">
-                <h4>Website Building</h4>
-                <p>With our strong sales and marketing expertise, we specifically build corporate websites in the best way to promote your products and services to your customers. Of course, they are multilingual upon your needs!</p>
+                <h4><%= t('view.websiteh4') %></h4>
+                <p><%= t('view.websitep') %></p>
 
               </div>
               <div class="clearfix"> </div>
@@ -529,7 +529,7 @@
   <!--/testimonials-->
   <div class="tesimonials">
     <div class="container">
-      <h3 class="tittle-w3ls cen">Case Studies</h3>
+      <h3 class="tittle-w3ls cen"><%= t('view.casestudy') %></h3>
       <div class="inner_sec">
         <div class="test_grid_sec">
           <div class="col-md-offset-2 col-md-8">
@@ -553,8 +553,8 @@
 
                       </div>
                       <div class="col-sm-9 test_img_info">
-                        <p>Import Japanese hair care products such as shampoo into Taiwan and distribute to major hair salons in Taiwanese fashion capital, Taipei/New Taipei area.</p>
-                        <h6>Trading & Distribution</h6>
+                        <p><%= t('view.case1p') %></p>
+                        <h6><%= t('view.case1h6') %></h6>
                       </div>
                     </div>
                   </blockquote>
@@ -567,8 +567,8 @@
                         <img src="assets/t2.jpg" class="img-responsive" alt="">
                       </div>
                       <div class="col-sm-9 test_img_info">
-                        <p>A Taiwanese machinary manufacturer enjoys the brand new and modern looking multilingual website built by us as well as our advertising service for the Japanese market.</p>
-                        <h6>Advertising & Website Building</h6>
+                        <p><%= t('view.case2p') %></p>
+                        <h6><%= t('view.case2h6') %></h6>
                       </div>
                     </div>
                   </blockquote>
@@ -581,8 +581,8 @@
                         <img src="assets/t3.jpg" class="img-responsive" alt="">
                       </div>
                       <div class="col-sm-9 test_img_info">
-                        <p>A Taiwanese traveling agency is fully benefited by our total marketing consultancy, including the new website and the social media page, aiming inbounds from Japan.</p>
-                        <h6>Marketing Consultancy</h6>
+                        <p><%= t('view.case3p') %></p>
+                        <h6><%= t('view.case3h6') %></h6>
                       </div>
                     </div>
                   </blockquote>
@@ -600,16 +600,15 @@
   <!--/bottom-->
   <div class="banner_bottom">
     <div class="container">
-      <h3 class="tittle-w3ls">Our Coverage</h3>
+      <h3 class="tittle-w3ls"><%= t('view.coverage') %></h3>
       <div class="inner_sec_info_wthree_agile">
         <div class="help_full">
 
           <div class="col-md-6 banner_bottom_left">
-            <h4>Best Partner of Global Business </h4>
-            <p>In addition to our strong existence in East Asian market, we are able to provide our superior services destined for South Asia, Middle East, North America and Europe either directly or through our partners. Given our ample experience in the global market, we are also ready to explore new countries upon your request. Consult with us first to see what your esteemed company and we can build up something valuable together!
-            </p>
+            <h4><%= t('view.coverageh4') %> </h4>
+            <p><%= t('view.coveragep') %></p>
             <div class="ab_button">
-              <a class="btn btn-primary btn-lg hvr-underline-from-left" href="/contact" role="button">Contact Us </a>
+              <a class="btn btn-primary btn-lg hvr-underline-from-left" href="/contact" role="button"><%= t('view.contactus') %> </a>
             </div>
 
 
