@@ -259,14 +259,14 @@ span.input.input--chisato:nth-child(2) {
 }
 
 .contact_grid p a {
-  color: #72868e;
+  color: #76daff;
   line-height: 1.1em;
   font-size: 0.9em;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .contact_grid_right p a:hover {
-    color: #76daff;
+    color: #72868e;
 }
 
 .agile_contact_grid_left i {
