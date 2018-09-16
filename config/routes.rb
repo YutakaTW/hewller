@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   match '/home', to: 'static_pages#home', via: 'get'
 
   scope '(:locale)', locale: /#{I18n.available_locales.map(&:to_s).join('|')}/ do
+    resources :static_pages
+    resources :inquiry
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
