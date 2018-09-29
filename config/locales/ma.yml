@@ -31,3 +31,29 @@ ma:
     coverageh4: Best Partner of Global Business
     coveragep: In addition to our strong existence in East Asian market, we are able to provide our superior services destined for South Asia, Middle East, North America and Europe either directly or through our partners. Given our ample experience in the global market, we are also ready to explore new countries upon your request. Consult with us first to see what your esteemed company and we can build up something valuable together!
     home: 首頁
+    sendus: 聯絡我們
+    alert: 請輸入正確的資訊
+    name: 姓名
+    email: 信箱
+    subject: 主題
+    inquiry: 您想詢問什麼呢？
+    confirm: 確認
+    confirminquiry: 請確認聯絡內容
+    submit: 寄出
+    thanks: 感謝您的聯絡，我們將回覆至您的信箱
+    office: 總公司
+    address: 台北市中山區長安東路一段75-1號
+    pinpin: 國內窗口 (中文、台語)
+    yutaka: 國外窗口 (英文、日文)
+
+  activemodel:
+    errors:
+      models:
+        inquiry:
+          attributes:
+            name:
+              namealert: 請輸入您的姓名
+            email:
+              emailalert: 請輸入您的信箱
+            message:
+              inquiryalert: 請輸入詢問內容

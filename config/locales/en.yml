@@ -54,4 +54,27 @@ en:
     home: Home
     sendus: Send Us a Message
     alert: Please input correctly
+    name: Name
+    email: Email
+    subject: Subject
+    inquiry: Your inquiry here...
+    confirm: Confirm
+    confirminquiry: Confirm Your Message
+    submit: Send
+    thanks: Thank you for your inquiry.
     office: HEAD OFFICE
+    address: Zhongshan District, Taipei City, Taiwan
+    pinpin: Contact in Taiwanese/Mandarin
+    yutaka: Contact in English/Japanese
+
+  activemodel:
+    errors:
+      models:
+        inquiry:
+          attributes:
+            name:
+              namealert: Please input your name
+            email:
+              emailalert: Please input your email address
+            message:
+              inquiryalert: Please input your inquiry

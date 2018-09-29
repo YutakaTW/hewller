@@ -31,3 +31,29 @@ ja:
     coverageh4: 海外ビジネスのベストパートナー
     coveragep: HHIの位置する東アジアだけでなく、東南アジア、南アジア、中東、北米ならびにヨーロッパにも、弊社のサービスをお届けします。また、このような海外における豊富な実績と経験を活かし、お客様のご要望に応じて常に新しいマーケットに挑戦しています。貴社と共に新たなビジネスを創出できる機会を楽しみにしています。まずはお気軽にご相談ください。
     home: ホーム
+    sendus: お問い合わせ
+    alert: お問い合わせ内容を正確に入力してください
+    name: お名前
+    email: メールアドレス
+    subject: タイトル
+    inquiry: お問い合わせ内容
+    confirm: 確認
+    confirminquiry: お問い合わせ内容
+    submit: 送信
+    thanks: お問い合わせありがとうございました
+    office: 本社
+    address: 台湾台北市中山区長安東路一段75-1
+    pinpin: 台湾語・中国語でのお問い合わせ
+    yutaka: 日本語・英語でのお問い合わせ
+
+  activemodel:
+    errors:
+      models:
+        inquiry:
+          attributes:
+            name:
+              namealert: お名前を入力してください
+            email:
+              emailalert: メールアドレスを入力してください
+            message:
+              inquiryalert: お問い合わせ内容を入力してください

@@ -101,12 +101,12 @@
               </div>
             <% end %>
 
-            <span class="input input--chisato"><%= f.text_field :name, :class => 'input__field input__field--chisato', :placeholder => 'Name', autofocus: true %></span>
-            <span class="input input--chisato"><%= f.email_field :email, :class => 'input__field input__field--chisato', :placeholder => 'Email', autofocus: true %></span>
-            <span class="input input--chisato"><%= f.text_field :subject, :class => 'input__field input__field--chisato', :placeholder => 'Subject', autofocus: true %></span>
-            <%= f.text_area :message, rows: 5, :class => 'input__label-content input__label-content--chisato',:placeholder => "Your inquiry here...", autofocus: true %>
+            <span class="input input--chisato"><%= f.text_field :name, :class => 'input__field input__field--chisato', :placeholder => t('view.name'), autofocus: true %></span>
+            <span class="input input--chisato"><%= f.email_field :email, :class => 'input__field input__field--chisato', :placeholder => t('view.email'), autofocus: true %></span>
+            <span class="input input--chisato"><%= f.text_field :subject, :class => 'input__field input__field--chisato', :placeholder => t('view.subject'), autofocus: true %></span>
+            <%= f.text_area :message, rows: 5, :class => 'input__label-content input__label-content--chisato',:placeholder => t('view.inquiry'), autofocus: true %>
 
-          <%= f.submit "Confirm", :class => 'btn btn-default' %>
+          <%= f.submit t('view.confirm'), :class => 'btn btn-default' %>
         <% end %>
 
         </div>
