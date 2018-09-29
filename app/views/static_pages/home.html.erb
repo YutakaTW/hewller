@@ -55,7 +55,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <div class="nav_right_top">
             <ul class="nav navbar-nav navbar-right">
-              <li><a class="request" href="/contact"><%= t('view.contact') %></a></li>
+              <li><%= link_to t('view.contact'), url_for(controller: :inquiry, action: :contact), :class => 'request' %></li>
             </ul>
             <ul class="nav navbar-nav">
               <!--<li class="active"><a href="/">Home</a></li>
@@ -177,7 +177,7 @@
             <p><%= t('view.aboutusp2') %></p>
             <p><%= t('view.aboutusp3') %></p>
             <div class="ab_button">
-              <a class="btn btn-primary btn-lg hvr-underline-from-left" href="/contact" role="button"><%= t('view.contactus') %> </a>
+              <%= link_to t('view.contactus'), url_for(controller: :inquiry, action: :contact), :class => 'btn btn-primary btn-lg hvr-underline-from-left' %>
             </div>
           </div>
           <div class="clearfix"></div>
@@ -608,7 +608,7 @@
             <h4><%= t('view.coverageh4') %> </h4>
             <p><%= t('view.coveragep') %></p>
             <div class="ab_button">
-              <a class="btn btn-primary btn-lg hvr-underline-from-left" href="/contact" role="button"><%= t('view.contactus') %> </a>
+              <%= link_to t('view.contactus'), url_for(controller: :inquiry, action: :contact), :class => 'btn btn-primary btn-lg hvr-underline-from-left' %>
             </div>
 
 
