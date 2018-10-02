@@ -37,6 +37,7 @@ gem 'figaro'
 gem 'passenger'
 gem 'jquery-ui-rails'
 gem 'rails-i18n'
+gem 'bootstrap-sass'
 
 group :production do
   gem 'pg'
