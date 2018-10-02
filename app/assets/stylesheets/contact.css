@@ -319,6 +319,9 @@ span.input.input--chisato:nth-child(2) {
 		width: 100%;
 		min-height: 303px;
 	}
+	.resp {
+		margin-bottom: 16px;
+	}
 }
 
 @media(max-width:640px) {
